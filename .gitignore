@@ -2,3 +2,4 @@
 .idea
 src/test/
 .gitignore
+mysql2hive.iml
