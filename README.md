@@ -1,0 +1,3 @@
+## mysql to hive
+基于cannal监听mysql-binlog，将数据传给kafka，然后集成sparkstreaming来对hive进行操作，
+同时针对hive的更新删除采用将hive事务存储在hbase里从而再去对hive做操作
